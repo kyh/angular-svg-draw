@@ -1,7 +1,7 @@
 svgDraw
 =======
 
-Angular directive wrapper to draw out your SVG's. Inspired by: 
+Angular directive wrapper to draw out your SVG's. Inspired by: http://tympanus.net/codrops/2013/12/30/svg-drawing-animation/
 
 Include the 2 files from /source/ folder
   
