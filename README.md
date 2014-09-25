@@ -24,3 +24,7 @@ This will animate the paths from frames 0-60 at 60fps. Options for the directive
 | endFrame      | int           | 60            | The frame you want to end the animation running at 60fps  |
 | delay         | int           | 0             | Delay in milliseconds before starting the animation  |
 | complete      | function      | angular.noop  | What function you want to run when the animation completes  |
+
+
+Example can be found here:
+http://tehkaiyu.github.io/svgDraw/app
