@@ -10,18 +10,22 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- build:css({.tmp,app}) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="styles/svg.css">
     <!-- endbuild -->
   </head>
   <body ng-app="svgDrawApp" ng-controller="MainCtrl">
 
     <div class="container">
-      <div ng-include="'images/flower.svg'" svg-draw></div>
+      <!-- <div ng-include="'images/flower.svg'"></div> -->
+      <div ng-include="'images/house.svg'"></div>
     </div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
