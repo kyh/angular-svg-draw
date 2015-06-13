@@ -5,6 +5,7 @@ Angular directive wrapper to draw out your SVG's. Inspired by: http://tympanus.n
 
 [View Basic Example](http://tehkaiyu.github.io/svgDraw/app) | [Production Site Example](http://developers.slyceapp.com/ios)
 
+## Usage
 Include the 2 files from /source/ folder
   
     svg.css
@@ -18,7 +19,10 @@ To use the directive just add 'svg-draw' in the <svg> element
 
     <svg svg-draw></svg>
   
-This will animate the paths from frames 0-60 at 60fps. Options for the directive can be controlled through data attributes. The following options are availible:
+This will animate the paths from frames 0-60 at 60fps.
+
+## API
+Options for the directive can be controlled through data attributes. The following options are availible:
 
 |     Name      |      Type     |   Default     |  Description  |
 | ------------- | ------------- | ------------- | ------------- |
