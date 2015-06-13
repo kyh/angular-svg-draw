@@ -3,6 +3,8 @@ svgDraw
 
 Angular directive wrapper to draw out your SVG's. Inspired by: http://tympanus.net/codrops/2013/12/30/svg-drawing-animation/
 
+[View Basic Example](http://tehkaiyu.github.io/svgDraw/app) | [Production Site Example](http://developers.slyceapp.com/ios)
+
 Include the 2 files from /source/ folder
   
     svg.css
@@ -24,7 +26,3 @@ This will animate the paths from frames 0-60 at 60fps. Options for the directive
 | endFrame      | int           | 60            | The frame you want to end the animation running at 60fps  |
 | delay         | int           | 0             | Delay in milliseconds before starting the animation  |
 | complete      | function      | angular.noop  | What function you want to run when the animation completes  |
-
-
-Example can be found here:
-http://tehkaiyu.github.io/svgDraw/app
